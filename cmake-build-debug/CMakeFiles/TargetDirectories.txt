@@ -1,3 +1,0 @@
-/home/ivan/CLionProjects/Loggerhead_Shell/cmake-build-debug/CMakeFiles/Loggerhead_Shell.dir
-/home/ivan/CLionProjects/Loggerhead_Shell/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/ivan/CLionProjects/Loggerhead_Shell/cmake-build-debug/CMakeFiles/rebuild_cache.dir
