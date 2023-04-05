@@ -1,0 +1,31 @@
+Provide a concise and descriptive answer to the following questions.
+Q1: What is the purpose of the fork() system call?
+
+Answer1: 
+The fork() system call creates a new process by duplicating the calling process. 
+The new process is known as the child process, while the original process is known as the parent process. 
+Both processes continue to execute the same code from the point at which the fork() call was made, but they have different memory spaces and process IDs. 
+The purpose of fork() is to allow a single program to perform multiple tasks simultaneously, with each task running in its own process.
+
+Q2: Explain the following code snippet and write down the list of process state transitions that
+occur during the following program. You may assume that this is the only process that the CPU
+is executing.
+int i = 1;
+while (i < 100) { i++; }
+printf("%d ", i);
+while (i > 0) { i--; }
+printf("%d ", i);
+
+Answer2:
+he given code snippet initializes an integer variable i with the value 1, and then runs two loops. 
+The first loop increments i until it reaches 100, and the second loop decrements i until it reaches 0. 
+Finally, the program prints the value of i twice: once after the first loop, and once after the second loop.
+
+Assuming that this is the only process that the CPU is executing, the following process state transitions occur during the execution of this program:
+
+1.) The process starts in the "running" state.
+2.) The process enters a loop that increments the value of i until it reaches 100. During this time, the process is in the "running" state, executing instructions.
+3.) Once the loop completes, the process prints the value of i. During this time, the process is in the "running" state, executing the printf() function.
+4.) The process enters a second loop that decrements the value of i until it reaches 0. During this time, the process is in the "running" state, executing instructions.
+5.) Once the second loop completes, the process prints the value of i again. During this time, the process is in the "running" state, executing the printf() function.
+6.) The process reaches the end of the program and exits, returning to the operating system. During this time, the process is in the "terminated" state.
