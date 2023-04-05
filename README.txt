@@ -1,4 +1,4 @@
-Group members : Ivan Mijić
+Ivan Mijić
 
 Files:
 1.) basic_program.c -> for task 1.3
