@@ -11,7 +11,7 @@ Files:
 3.) loggerhead_shell.c -> my shell
 4.) Questions.txt -> answered question for task 1.5
 
-Taks 1.5 ->O
+Taks 1.5 ->
 
 Provide a concise and descriptive answer to the following questions.
 Q1: What is the purpose of the fork() system call?
