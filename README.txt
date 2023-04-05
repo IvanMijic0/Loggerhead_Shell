@@ -1,5 +1,10 @@
 Ivan Mijić
 
+***Loggerhead Shell***
+
+Named after the turtle with the toughest shell, is a basic shell implemented through a C script.
+It can handle piping and redirection, and basic terminal commands.
+
 Files:
 1.) basic_program.c -> for task 1.3
 2.) intermediate_program -> for task 1.3
