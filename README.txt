@@ -180,7 +180,6 @@ There are no special instructions for running my scripts. The usual gcc -o "scri
 Sources/Tutorials:
 
 GeeksForGeeks: https://www.geeksforgeeks.org/making-linux-shell-c/
-ChatGPT -> when I got stuck. Usually was my dumb mistake that even the poor bot couldn't find.
 StackOverflow
 
 Challenges:
