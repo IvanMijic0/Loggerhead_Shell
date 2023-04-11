@@ -16,8 +16,6 @@ Provide a concise and descriptive answer to the following questions.
 
 ## Q2: Explain the following code snippet and write down the list of process state transitions that occur during the following program. You may assume that this is the only process that the CPU is executing.
 
-perl
-Copy code
 int i = 1;
 while (i < 100) { i++; }
 printf("%d ", i);
