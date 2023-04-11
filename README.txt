@@ -1,4 +1,4 @@
-# 👋 Hello!
+# Hello!
 
 # Welcome to my repository, featuring the Loggerhead Shell 🐢, a basic shell implemented through a C script that can handle piping and redirection, and basic terminal commands.
 
