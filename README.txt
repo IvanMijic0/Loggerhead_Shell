@@ -1,8 +1,8 @@
-👋 Hello!
+# 👋 Hello!
 
-Welcome to my repository, featuring the Loggerhead Shell 🐢, a basic shell implemented through a C script that can handle piping and redirection, and basic terminal commands.
+# Welcome to my repository, featuring the Loggerhead Shell 🐢, a basic shell implemented through a C script that can handle piping and redirection, and basic terminal commands.
 
-Files 📁
+# Files 📁
 basic_program.c -> for task 1.3
 intermediate_program -> for task 1.3
 loggerhead_shell.c -> my shell
@@ -10,11 +10,11 @@ Questions.txt -> answered questions for task 1.5
 Task 1.5 ❓
 Provide a concise and descriptive answer to the following questions.
 
-Q1: What is the purpose of the fork() system call?
+## Q1: What is the purpose of the fork() system call?
 
 📝 Answer1: The fork() system call creates a new process by duplicating the calling process. The new process is known as the child process, while the original process is known as the parent process. Both processes continue to execute the same code from the point at which the fork() call was made, but they have different memory spaces and process IDs. The purpose of fork() is to allow a single program to perform multiple tasks simultaneously, with each task running in its own process.
 
-Q2: Explain the following code snippet and write down the list of process state transitions that occur during the following program. You may assume that this is the only process that the CPU is executing.
+## Q2: Explain the following code snippet and write down the list of process state transitions that occur during the following program. You may assume that this is the only process that the CPU is executing.
 
 perl
 Copy code
@@ -35,7 +35,7 @@ The process enters a second loop that decrements the value of i until it reaches
 Once the second loop completes, the process prints the value of i again. During this time, the process is in the "running" state, executing the printf() function.
 The process reaches the end of the program and exits, returning to the operating system. During this time, the process is in the "terminated" state.
 
-Assignment outline 📋
+# Assignment outline 📋
 
 This is a C program that creates a command-line shell, also known as a terminal emulator. It provides the user with an interface to enter commands and execute them on a Unix-like operating system. The script uses several libraries, including stdio.h, stdlib.h, string.h, unistd.h, sys/utsname.h, limits.h, sys/wait.h, fcntl.h, termios.h, errno.h, signal.h, libgen.h, and setjmp.h.
 
@@ -100,9 +100,9 @@ Functions 🛠️:
 23. 🌅 void greetings(): This function displays a greeting message when the shell starts up.
 
 
-🎯 Separate tasks:
+# 🎯 Separate tasks:
 
-1️⃣ basic_program ->
+## 1️⃣ basic_program ->
 
 👉 This is a C program that demonstrates how to create a new process using the fork() system call, and how to execute a different program using the execvp() system call. 🚀
 
@@ -120,7 +120,7 @@ Functions 🛠️:
 
 👉 Finally, the program returns 0 to indicate successful execution. ✅
 
-2️⃣ intermediate_program ->
+## 2️⃣ intermediate_program ->
 
 👉 This is a C program that creates a child process using the fork() system call and then executes the "ls -l" command using the execvpe() system call. 🚀
 
@@ -146,15 +146,15 @@ The waitpid() system call is used to wait for the child process to terminate and
 The waitpid() call takes three arguments: the process ID of the child process, a pointer to an integer variable to store the child process's exit status, and an options parameter (0 in this case).
 Once the child process has vanished into thin air, our program prints a message indicating the child process's exit status, and then exits itself, feeling accomplished.
 
-Overall, our charming program demonstrates how to create a child process and execute a command in the child process using the fork() and execvpe() system calls in C. We're so proud of our program!
+## Overall, our charming program demonstrates how to create a child process and execute a command in the child process using the fork() and execvpe() system calls in C. We're so proud of our program!
 
 Instructions for running our program are easy-peasy: just run "gcc -o 🚀script_name🚀 📜script_name.c📜 -Wall". Voila!
 
-Sources/Tutorials:
+# Sources/Tutorials:
 
 GeeksForGeeks: https://www.geeksforgeeks.org/making-linux-shell-c/
 StackOverflow
 
-Challenges:
+# Challenges:
 
 We faced some challenges along the way, but we conquered them like the heroes we are! We struggled with piping at first, but then realized we were calling two functions separately, which should not be done. We also couldn't get readline() working without breaking after a certain amount of characters in the buffer, so we had to admit defeat. But hey, we're still learning and growing! We really wanted to get the history working, but maybe we'll tackle that when we're feeling more chill about deadlines. And, we didn't have time to comment the code as much as we would like to, but we promise to do so for our own sake :D.
