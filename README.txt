@@ -29,7 +29,5 @@ Contributions are welcome! Follow these steps to contribute to the project:
 ## License
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). You can find more details in the [LICENSE](./LICENSE) file.
 
-
-
-Acknowledgments
+## Acknowledgments
 The shell implementation is based on the examples and knowledge from various sources, including online tutorials and documentation.
